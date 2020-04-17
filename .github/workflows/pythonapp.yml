@@ -38,6 +38,7 @@ jobs:
       run: |
         echo $PWD
         echo $HOME
+        echo $GITHUB_WORKSPACE
         ls -al
         echo $ABC
         pip install pytest
