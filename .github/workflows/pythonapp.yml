@@ -36,6 +36,8 @@ jobs:
         ABC=2
     - name: Test with pytest
       run: |
+        echo $PWD
+        echo $HOME
         ls -al
         echo $ABC
         pip install pytest
